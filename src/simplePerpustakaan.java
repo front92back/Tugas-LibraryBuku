@@ -24,7 +24,7 @@ class Buku { // Class yang digunakan untuk struktur buku dalam program Perpustak
     }
 }
 
-public class Perpustakaan{
+public class simplePerpustakaan{
     public static void main(String[] args) {
         Buku buku1 = new Buku("Buku Teknologi 1", new ArrayList<String>(), "UB");
         buku1.addPenulis(buku1, "Nunu");
